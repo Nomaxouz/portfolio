@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Soulmaze";
+  src: url("../../public/fonts/Soulmaze.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #007368;
+  /* background: 
+  fixed linear-gradient(transparent, #007368 70%),
+  fixed
+    repeating-linear-gradient(
+      #fff,
+      #fff 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+  fixed
+    repeating-linear-gradient(
+      to right,
+      #fff,
+      #fff 1px,
+      transparent 1px,
+      transparent 40px
+    )
+    #007368; */
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.wide {
+  display: inline-block;
+  transform: scaleY(1.3);
+  line-height: 0.8;
+  margin-top: 2rem;
+}
+
+.hero {
+  height: calc(95dvh - 4rem);
+  font-family: "Soulmaze", sans-serif;
+  position: relative;
+
+  .head {
+    backdrop-filter: blur(12px);
+    background-color: rgba(250, 250, 250, 0.2);
+    box-shadow: 0px -4px 15px 0px rgba(0, 0, 0, 0.25), 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5vw;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: calc(100vw - 80%);
+    height: auto;
+    rotate: 22deg;
+  }
+
+  .head:nth-child(2) {
+    top: 15%;
+    left: 75%;
+    rotate: -38deg;
+  }
+
+  .head > img {
+    width: 100%;
+    object-fit: cover;
+    padding: 4vw;
+  }
+
+  .logo {
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    width: calc(100vw - 92%);
+    height: auto;
+    rotate: -33deg;
+  }
+
+  .logo:last-child {
+    top: 50%;
+    left: 70%;
+    rotate: 25deg;
+  }
+
+  .logoEl {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .navArrow {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Soulmaze', sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: 'Soulmaze', sans-serif;
+}
+
+p {
+  font-weight: 600;
+}
+
+.soulmaze {
+  font-family: 'Soulmaze', sans-serif;
+}
+
+.pres {
+  .image {
+    border-radius: 5vw;
+    position: absolute;
+    width: calc(100vw - 65vw);
+    height: auto;
+  }
+  .image > img {
+    width: 100%;
+    object-fit: cover;
+    padding: 6vw;
+  }
+  .image > img:nth-child(2) {
+    width: 30%;
+    padding: 0;
+  }
+}

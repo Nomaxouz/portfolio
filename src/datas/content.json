@@ -1,0 +1,51 @@
+{
+    "VisualIdentity": {
+        "1": {
+            "title": "DLN design",
+            "description": "✨ DLN Design – Mon identité, mon style ✨\n\nDLN Design, c’est bien plus qu’un simple nom, c’est ma vision du brand design : impactant, moderne et reconnaissable au premier coup d’œil.\n\n🎨 L’identité visuelle repose sur une typographie marquée, une esthétique épurée et un équilibre entre dynamisme et professionnalisme. L’objectif ? Refléter mon approche : créative, audacieuse et toujours en quête du détail qui fait la différence.\n\n💡 Pourquoi cette direction ? Parce qu’une bonne identité visuelle doit être unique et mémorable exactement ce que j’applique à mes propres projets.",
+            "image": "/images/visual-identity/board-dln.png"
+        },
+        "2": {
+            "title": "Bar kyros",
+            "description": "🍸 KYROS – Where Prestige Meets Comfort and Elegance\n\nKYROS, ce n’est pas juste un bar factice, c’est une expérience. Un lieu où le raffinement se mêle à la convivialité, et où chaque verre raconte une histoire.\n\n💎 Son identité visuelle ? Chic, sophistiquée et intemporelle. Un design qui évoque à la fois le prestige des spiritueux d’exception et le confort d’un lounge feutré. Des tons profonds, des typographies élégantes et une esthétique qui inspire autant qu’elle intrigue.\n\n🥃 Sa particularité ? KYROS ne se contente pas de servir des cocktails, il fabrique ses propres alcools. Chaque bouteille incarne un savoir-faire unique, une alchimie parfaite entre tradition et modernité.\n\nUn bar, une marque, une signature. KYROS, c’est l’art du luxe à savourer.",
+            "image": "/images/visual-identity/board-kyros.png"
+        },
+        "3": {
+            "title": "Urban vibes",
+            "description": "🛹 Urban Vibes – Wear the City, Feel the Vibe\n\nUrban Vibes, c’est plus qu’une marque de vêtements factice, c’est un état d’esprit. Un mélange brut entre culture urbaine, streetwear et attitude affirmée.\n\n🎨 L’identité visuelle puise son inspiration dans les rues : des typographies impactantes, des graphismes audacieux et une palette qui claque. Chaque pièce est pensée comme un statement, une manière d’afficher son style sans concessions.\n\n🌆 Pourquoi Urban Vibes ? Parce que la mode urbaine, ce n’est pas juste des fringues, c’est une expression, un mouvement, un lifestyle. Ici, on ne suit pas les tendances, on les crée.",
+            "image": "/images/visual-identity/board-urban-vibes.png"
+        }
+    },
+    "Motion": {
+        "1": {
+            "title": "Morphing Effect",
+            "description": "Un loading qui capte l’attention\n\nPourquoi subir l’attente quand on peut la rendre captivante ? Ici, le temps de chargement se transforme en une expérience visuelle avec une animation fluide et originale.\n\n🔄 Le concept ? Un effet de morphing où deux visages se transforment l’un en l’autre, créant une transition hypnotisante et dynamique. Un détail subtil, mais qui fait toute la différence : l’attente devient un moment graphique à part entière.\n\n✨ Résultat : un effet aussi esthétique qu’immersif, qui apporte du caractère et de la créativité à votre projet. Parce qu’un bon design se cache aussi dans les transitions.",
+            "image": "/images/motion/morphing-effect.png",
+            "link": "https://youtube.com/shorts/VbaPZkQ7kVs?si=4o3Q7Np9gCNxFpMY"
+        },
+        "2": {
+            "title": "Late Night Vibes",
+            "description": "🌙 Late Night Vibes – Quand la nuit berce la ville\n\nDans les lumières tamisées du métro, entre le bruit des rails et les néons fatigués, un petit personnage lutte contre le sommeil. Late Night Vibes, c’est cette sensation qu’on a tous connue : ce moment où la fatigue prend le dessus, où la ville devient un écho lointain, presque irréel.\n\n🎥 Un motion design qui joue avec les ambiances, mêlant animations fluides, lumières douces et rythmes lents pour plonger dans cet instant suspendu entre rêve et réalité. Les mouvements se font plus flottants, les sons se distordent… puis, un sursaut, une station ratée, et la nuit continue.\n\n🚇 Late Night Vibes, c’est l’histoire d’un trajet qui devient un voyage.",
+            "image": "/images/motion/late-night-vibes.png",
+            "link": "https://youtube.com/shorts/5GGwOYR6rPU?si=NjJWNfQ6Tldocriy"
+        },
+        "3": {
+            "title": "Le Machine Learning",
+            "description": "📊 Comprendre l’intelligence des machines en quelques images\n\nLe machine learning, c’est un concept qui peut vite sembler abstrait… alors quoi de mieux qu’un motion design clair et dynamique pour le rendre accessible ?\n\n🎥 À travers une animation fluide et pédagogique, ce projet décortique les bases de l’apprentissage automatique : comment une machine analyse des données, reconnaît des schémas et s’améliore toute seule, sans intervention humaine.\n\n💡 Le défi ? Simplifier un sujet complexe sans le dénaturer. Avec des visuels épurés, des transitions dynamiques et une narration fluide, ce motion design transforme un principe technique en une explication limpide et engageante.",
+            "image": "/images/motion/machine-learning.png",
+            "link": "https://youtu.be/ChmvLRo1VS0?si=zC3islP3MR2cqpcG"
+        },
+        "4": {
+            "title": "Chess Game",
+            "description": "♟️ Master the Board, Conquer the Mind\n\nLes échecs, c’est bien plus qu’un jeu : c’est une bataille mentale, une danse stratégique où chaque coup compte. Ce motion design met en scène cette intensité, avec une animation fluide et immersive.\n\n🎥 L’originalité ? Un effet de fake 3D qui donne du relief aux pièces et au plateau, plongeant le spectateur au cœur de la partie. Les mouvements dynamiques et les transitions percutantes renforcent l’impression de profondeur et de stratégie en action.\n\n🧠 Le message ? Aux échecs comme ailleurs, maîtriser l’échiquier, c’est maîtriser l’esprit. Une création à la croisée du graphisme et de la réflexion.",
+            "image": "/images/motion/chess.png",
+            "link": "https://youtube.com/shorts/s2YtR8z07Ls?si=hE5-Zh9xD-uD5rbD"
+        },
+        "5": {
+            "title": "Rise and Flow",
+            "description": "🎶 Quand la typographie danse avec l’IA\n\nCe motion design en kinetic typography donne vie aux mots au rythme d’une musique… pas comme les autres. Composée par une intelligence artificielle, cette bande-son unique a servi de point de départ pour une animation typographique dynamique et immersive.\n\n🔠 Le concept ? Faire vibrer les lettres au tempo de la machine, en jouant sur les rythmes, les variations et les effets de mouvement pour traduire visuellement l’énergie de la musique générée.\n\n🤖 Résultat ? Une fusion entre créativité humaine et intelligence artificielle, où la typographie ne se contente pas d’afficher du texte : elle devient un instrument à part entière.",
+            "image": "/images/motion/rise-flow.png",
+            "link": "https://youtube.com/shorts/RTyShspZl2w?si=nwftW4QZMa7rbPu6"
+        }
+    }
+}
